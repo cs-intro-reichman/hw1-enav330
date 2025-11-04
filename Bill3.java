@@ -10,7 +10,7 @@ public class Bill3 {
 		double totalBillDouble=totalBill;
 		totalBillDouble=((totalBillDouble/3));
 		totalBillDouble=Math.ceil(totalBillDouble);
-		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + " pay " + totalBillDouble + " shekels each" );
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + totalBillDouble + " shekels each" );
 
 	}
 }
