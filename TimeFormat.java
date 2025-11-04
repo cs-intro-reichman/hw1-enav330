@@ -35,6 +35,18 @@ public class TimeFormat {
 				System.out.println(hoursPm + ":" + minutes + " PM");
 			}
 		}  
+		else if (hours==12)
+		{
+			if (minutes < 10) 
+			{
+				System.out.println(hours + ":" + 0 + minutes + " PM");
+			}
+			else 
+			{
+				System.out.println(hours + ":" + minutes + " PM");
+			}
+
+		}
 		}
 	}
 		
